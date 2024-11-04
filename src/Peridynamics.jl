@@ -20,7 +20,7 @@ export Body, point_set!, point_sets, failure_permit!, material!, velocity_bc!, v
        uniform_cylinder, round_sphere, round_cylinder, n_points
 
 # Running simulations
-export VelocityVerlet, DynamicRelaxation, Job, submit
+export VelocityVerlet, DynamicRelaxation, ExplicitEuler, Job, submit
 
 # Pre processing
 export read_inp
